@@ -1,0 +1,167 @@
+
+
+.search-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  display: flex;
+  align-items: center;
+  background-color: #fffcfc;
+  border: 3px solid #0c0c0c;
+  border-radius: 20px;
+  padding: 5px 10px;
+  width: 250px;
+  z-index: 1000; 
+}
+
+.search-icon {
+  font-size: 20px;
+  color: #080808;
+  margin-right: 10px;
+}
+
+.search-input {
+  width: 100%;
+  padding: 5px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  background-color: #fcfafa;
+  color: #080808;
+}
+
+.search-input::placeholder {
+  color: #0e0d0d;
+}
+
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px; 
+}
+
+.form-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+  gap: 30px;
+  
+}
+
+.form-container form {
+  width: 48%; 
+  background: rgba(255, 255, 255, 0.8); 
+  border: 3px solid #0c0c0c; 
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  backdrop-filter: blur(10px); 
+}
+input {
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+button {
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold; 
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  background: #0056b3;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+
+.form-container form {
+  width: 48%;
+  background: #fff;
+  border: 1px solid #0f0c0c;
+  border-radius: 15px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 80%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  padding: 10px 15px;
+  background: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+button:hover {
+  background: #0056b3;
+  transform: scale(1.1);
+  box-shadow: 0 0 10px #E7F5DC(255, 255, 255, 0.6);
+}
+
+
+.table-container {
+  margin-top: 40px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+table th, table td {
+  padding: 10px;
+  border: 1px solid #080808;
+  text-align: left;
+}
+
+table th {
+  background: #f4f4f4;
+}
+
+table td input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 11px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.active {
+  color: green;
+}
+
+.inactive {
+  color: red;
+}
